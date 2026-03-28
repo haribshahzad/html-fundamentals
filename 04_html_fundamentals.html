@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wondering Photographer</title>
+
+    <style>
+        body {
+            background-color: #e85ca3;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            position: relative;
+        }
+
+        /* Decorative header image */
+        header img {
+            width: 300px;
+        }
+
+        /* Cart adjustments */
+        .cart {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+        }
+
+        .cart img {
+            width: 30px;
+        }
+
+        /* Main layout for the image products */
+        .container {
+            width: 500px;
+            margin: auto;
+        }
+
+        /* Spacing between each product */
+        section {
+            margin-bottom: 20px;
+        }
+
+        /* Image sizing */
+        figure {
+            margin: 0;
+        }
+
+        figure img {
+            width: 100%;
+            height: auto;
+            /* keeps natural proportions */
+        }
+
+        /* Caption styling */
+        figcaption {
+            background-color: #e6e0c8;
+            color: #13a3b6;
+            padding: 5px;
+            font-weight: bold;
+        }
+
+        /* Button to add to cart */
+        button {
+            display: block;
+            margin-top: 3px;
+            /* small gap between the caption and the button */
+            cursor: pointer;
+
+        }
+
+        /* Footer adjustments */
+        footer {
+            margin: 0 10px 0;
+            font-size: 25px;
+            font-weight: 650;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <img src="media for exercise 04\TheDivider.png" alt="">
+
+        <a href="#" class="cart">
+            <img src="media for exercise 04\shopping.svg" alt="Shopping cart">
+        </a>
+    </header>
+
+    <main class="container">
+
+        <section>
+            <figure>
+                <img src="media for exercise 04\OceanPhoto.jpg" alt="Ocean view from a cliff in Greenland">
+                <figcaption>
+                    This was from a fabulous trip to the coast of Greenland with my family.
+                    The water was lovely – but very cold!
+                </figcaption>
+            </figure>
+            <button>Add to basket</button>
+        </section>
+
+        <section>
+            <figure>
+                <img src="media for exercise 04\BridgePhoto.jpg" alt="Golden Gate Bridge picture taken from below">
+                <figcaption>
+                    A picture of the Golden Gate Bridge. New York! New York!
+                </figcaption>
+            </figure>
+            <button>Add to basket</button>
+        </section>
+
+        <section>
+            <figure>
+                <img src="media for exercise 04\ValleyPhoto.jpg" alt="River valley landscape in Greenland">
+                <figcaption>
+                    Another great photo from Greenland. It's a river valley where a glacier used to be.
+                </figcaption>
+            </figure>
+            <button>Add to basket</button>
+        </section>
+
+        <section>
+            <figure>
+                <img src="media for exercise 04\WaterfallPhoto.jpg" alt="Waterfall flowing into a pool">
+                <figcaption>
+                    The waterfall made such a lovely sound. I could have fallen asleep!
+                </figcaption>
+            </figure>
+            <button>Add to basket</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Copyright The Wondering Photographer 2018.</p>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About me</a></li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
